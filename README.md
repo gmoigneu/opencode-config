@@ -15,11 +15,30 @@ Personal [OpenCode](https://opencode.ai) configuration with custom agents, skill
 ~/.config/opencode/
 ├── opencode.json      # Main configuration
 ├── agents/            # Custom agent definitions
+│   ├── business-analyst.md
+│   ├── creative.md
+│   ├── marketer.md
 │   └── saas-designer.md
 └── skills/            # Agent skills
     ├── agent-browser/
     └── upsun/
 ```
+
+## Agents
+
+| Agent | Description |
+|-------|-------------|
+| **business-analyst** | Evaluates business viability, market fit, and opportunity analysis for ideas |
+| **creative** | Generates innovative variations and explores creative directions for ideas |
+| **marketer** | Develops positioning, messaging, and go-to-market strategies for products |
+| **saas-designer** | Designs production-grade SaaS dashboards with React, Tailwind CSS v4, and shadcn/ui |
+
+## Skills
+
+| Skill | Description |
+|-------|-------------|
+| **agent-browser** | Browser automation for web testing, form filling, screenshots, and data extraction |
+| **upsun** | Manage Upsun Platform-as-a-Service projects: deployments, environments, backups, scaling, and more |
 
 ## Permissions
 
