@@ -1,6 +1,7 @@
 ---
 description: Generates innovative variations and explores creative directions for ideas
 mode: subagent
+temperature: 0.8
 tools:
   read: true
   write: true

@@ -1,6 +1,7 @@
 ---
 description: Evaluates business viability, market fit, and opportunity analysis for ideas
 mode: subagent
+temperature: 0.3
 tools:
   read: true
   write: true

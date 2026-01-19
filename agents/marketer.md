@@ -1,6 +1,7 @@
 ---
 description: Develops positioning, messaging, and go-to-market strategies for products
 mode: subagent
+temperature: 0.6
 tools:
   read: true
   write: true
