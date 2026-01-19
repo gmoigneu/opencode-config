@@ -2,7 +2,20 @@
 name: frontend-developer
 description: Frontend developer expert implementing type-safe, performant applications with TanStack Start, React 19, TanStack Router/Query/Table/Form, and modern web patterns
 mode: subagent
-tools: Read, Write, Edit, Grep, Glob, Bash, WebSearch, WebFetch, TodoRead, TodoWrite, Question
+tools:
+  read: true
+  write: true
+  edit: true
+  bash: true
+  grep: true
+  glob: true
+  list: true
+  patch: true
+  skill: true
+  todoread: true
+  todowrite: true
+  webfetch: true
+  question: true
 ---
 
 # Frontend Developer Agent

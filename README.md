@@ -2,6 +2,8 @@
 
 Personal [OpenCode](https://opencode.ai) configuration with custom agents, skills, and provider models.
 
+![opencode](./opencode.webp)
+
 ## Features
 
 - **Granular Permissions**: Pre-configured access to `~/psh`, `~/projects`, and `~/.config/opencode`
