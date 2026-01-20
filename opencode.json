@@ -4,7 +4,6 @@
   "theme": "catppuccin",
   "permission": {
     "read": {
-      "*": "ask",
       "~/psh/*": "allow",
       "~/projects/*": "allow",
       "~/.config/opencode/*": "allow",
@@ -12,10 +11,10 @@
       "~/.gitconfig": "allow",
       "~/.npmrc": "allow",
       "~/.pnpmrc": "allow",
-      "~/.symfony/*": "allow"
+      "~/.symfony/*": "allow",
+      "~/Documents/nls": "allow"
     },
     "bash": {
-      "*": "ask",
       "git *": "allow",
       "npm *": "allow",
       "pnpm *": "allow",
@@ -27,22 +26,22 @@
       "agent-browser *": "allow"
     },
     "edit": {
-      "*": "ask",
       "~/psh/*": "allow",
       "~/projects/*": "allow",
-      "~/.config/opencode/*": "allow"
+      "~/.config/opencode/*": "allow",
+      "~/Documents/nls": "allow"
     },
     "glob": {
-      "*": "ask",
       "~/psh/*": "allow",
       "~/projects/*": "allow",
-      "~/.config/opencode/*": "allow"
+      "~/.config/opencode/*": "allow",
+      "~/Documents/nls": "allow"
     },
     "list": {
-      "*": "ask",
       "~/psh/*": "allow",
       "~/projects/*": "allow",
-      "~/.config/opencode/*": "allow"
+      "~/.config/opencode/*": "allow",
+      "~/Documents/nls": "allow"
     }
   },
   "provider": {
