@@ -45,6 +45,31 @@
     }
   },
   "provider": {
+    "perplexity": {
+      "npm": "@ai-sdk/perplexity",
+      "name": "Perplexity AI",
+      "options": {
+          "baseURL": "https://api.perplexity.ai"
+      },
+      "models": {
+          "sonar-deep-research": {
+              "name": "Perplexity Sonar Deep Research",
+              "release_date": "2025-02-01",
+              "attachment": false,
+              "reasoning": true,
+              "temperature": false,
+              "tool_call": false,
+              "cost": {
+                  "input": 2.0,
+                  "output": 8.0                       
+              },
+              "limit": {
+                  "context": 127072,
+                  "output": 32768
+              }                   
+          }
+      }
+    },
     "google": {
       "models": {
         "antigravity-gemini-3-pro": {
